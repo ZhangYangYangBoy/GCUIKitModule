@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GCUIKitModule_Example' do
+  pod 'GCUIKitModule', :path => '../'
+
+  target 'GCUIKitModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
