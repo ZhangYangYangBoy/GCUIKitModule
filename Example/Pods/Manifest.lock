@@ -1,5 +1,5 @@
 PODS:
-  - GCUIKitModule (0.0.4)
+  - GCUIKitModule (0.0.6)
 
 DEPENDENCIES:
   - GCUIKitModule (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GCUIKitModule: 398133e798e9af8090c917eeb243b48614e57558
+  GCUIKitModule: 83934d1f2fbd06ba76d71027a5947915281ba192
 
 PODFILE CHECKSUM: 28af7da17d30ea6f99324e18dedf9bd8273bf38d
 
