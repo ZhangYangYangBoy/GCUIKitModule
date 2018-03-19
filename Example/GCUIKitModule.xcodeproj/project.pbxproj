@@ -339,9 +339,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GCUIKitModule_Example/Pods-GCUIKitModule_Example-resources.sh",
+				"${PODS_ROOT}/ShareSDK2/ShareSDK/Core/Resource.bundle",
+				"${PODS_ROOT}/ShareSDK2/ShareSDK/Core/zh-Hans.lproj",
+				"${PODS_ROOT}/ShareSDK2/ShareSDK/Core/en.lproj",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Resource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

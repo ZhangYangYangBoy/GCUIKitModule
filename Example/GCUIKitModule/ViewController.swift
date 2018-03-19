@@ -13,7 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let view = GCNoNetWorkView.init(frame: CGRect.init(x: 0, y: 0, width: 200, height: 200))
+        let view = GCNoNetWorkView.newInstance()
+        view.frame = CGRect.init(x: 0, y: 0, width: 200, height: 200)
         self.view.addSubview(view)
     }
 
