@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26EA7CF8E0B4624C0EB95736 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2836B6361DB2BCA11A026D11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		584301C928FF783FFE7F7BE8 /* GCUIKitModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GCUIKitModule.podspec; path = ../GCUIKitModule.podspec; sourceTree = "<group>"; };
+		26EA7CF8E0B4624C0EB95736 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2836B6361DB2BCA11A026D11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		584301C928FF783FFE7F7BE8 /* GCUIKitModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GCUIKitModule.podspec; path = ../GCUIKitModule.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GCUIKitModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCUIKitModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };

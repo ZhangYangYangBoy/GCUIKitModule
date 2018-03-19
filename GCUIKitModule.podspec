@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GCUIKitModule'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GCUIKitModule.'
+  s.version          = '0.0.1'
+  s.summary          = 'UIKit组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 一个UI基础组件
                        DESC
 
   s.homepage         = 'https://github.com/zhangyangyangBoy/GCUIKitModule'
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'GCUIKitModule/Classes/**/*'
-  
+  s.resource = "GCUIKitModule/Assets/GCNoNetWorkView.xcassets"
   # s.resource_bundles = {
   #   'GCUIKitModule' => ['GCUIKitModule/Assets/*.png']
   # }

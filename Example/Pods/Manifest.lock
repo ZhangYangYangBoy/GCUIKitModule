@@ -1,0 +1,16 @@
+PODS:
+  - GCUIKitModule (0.1.0)
+
+DEPENDENCIES:
+  - GCUIKitModule (from `../`)
+
+EXTERNAL SOURCES:
+  GCUIKitModule:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GCUIKitModule: bc7c256f90214c0ca37ef73af33d7d41a96d4e98
+
+PODFILE CHECKSUM: 949ffffdad452460a11b73812a2e135d58e9ccf9
+
+COCOAPODS: 1.4.0

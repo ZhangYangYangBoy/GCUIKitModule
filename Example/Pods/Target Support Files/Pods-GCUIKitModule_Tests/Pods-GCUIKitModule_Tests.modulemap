@@ -1,0 +1,6 @@
+framework module Pods_GCUIKitModule_Tests {
+  umbrella header "Pods-GCUIKitModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
