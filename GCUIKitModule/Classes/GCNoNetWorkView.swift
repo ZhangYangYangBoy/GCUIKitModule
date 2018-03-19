@@ -10,15 +10,17 @@ import UIKit
 
 public class GCNoNetWorkView: UIView {
 
-    
-    public override func awakeFromNib() {
-        super.awakeFromNib()
-        self.backgroundColor = UIColor.red
-    }
+    @IBOutlet weak var imageView: UIImageView!
     
     public class func newInstance() -> GCNoNetWorkView {
         let nibView = Bundle(for: GCNoNetWorkView.self).loadNibNamed("GCNoNetWorkView", owner: nil, options: nil)
         return nibView!.first as! GCNoNetWorkView
+    }
+    
+    public override func awakeFromNib() {
+        super.awakeFromNib()
+        self.backgroundColor = UIColor.red
+        self.imageView.image = UIImage(named: "NetWorkFailed", in: Bundle(for: type(of: self)), compatibleWith: nil)
     }
     
 //    public override init(frame: CGRect) {
