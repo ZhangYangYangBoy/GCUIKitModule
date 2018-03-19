@@ -20,7 +20,7 @@ public class GCNoNetWorkView: UIView {
     public override func awakeFromNib() {
         super.awakeFromNib()
         self.backgroundColor = UIColor.red
-        self.imageView.image = UIImage(named: "NetWorkFailed", in: Bundle(for: type(of: self)), compatibleWith: nil)
+        self.imageView.image = UIImage(named: "ReservationList_NoData", in: Bundle(for: type(of: self)), compatibleWith: nil)
     }
     
 //    public override init(frame: CGRect) {
