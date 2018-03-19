@@ -1,6 +1,6 @@
 {
   "name": "GCUIKitModule",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "summary": "UIKit组件",
   "description": "TODO: 一个UI基础组件",
   "homepage": "https://github.com/zhangyangyangBoy/GCUIKitModule",
@@ -13,15 +13,11 @@
   },
   "source": {
     "git": "https://github.com/zhangyangyangBoy/GCUIKitModule.git",
-    "tag": "0.0.6"
+    "tag": "0.0.7"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "GCUIKitModule/Classes/**/*",
-  "resource_bundles": {
-    "GCUIKitModule": [
-      "GCUIKitModule/Assets/GCUIKitModule.bundle"
-    ]
-  }
+  "resources": "GCUIKitModule/Assets/**/*"
 }
