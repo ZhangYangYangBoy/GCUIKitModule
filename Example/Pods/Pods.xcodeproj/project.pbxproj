@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1697F6407413D5C6943F46FD7D844E3C /* GCUIKitModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E77DA3330FE3DAD17904D160DC3E9A4 /* GCUIKitModule.bundle */; };
+		01373CD1D3A8FC2F89A4DC7D71ADB920 /* GCUIKitModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B8F115737776D98B967C2D9F1BAC89 /* GCUIKitModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C51C0224DFE34A54F001C0C8875D012 /* GCNoNetWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F04D4B39244838FF391F8CBA4B4535 /* GCNoNetWorkView.swift */; };
 		1CB6EF614AD8644929F35B9F89FBA4A5 /* Pods-GCUIKitModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3BF8A82C8AAFE2F169A24F3A7D18D79 /* Pods-GCUIKitModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E8113133EC03C13C65B39D511BD3C4E /* Pods-GCUIKitModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8637B6DCFF5EC47534ED30FFF6BE2329 /* Pods-GCUIKitModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F2BCEB655F4BA586878B0F03FB2CEDE /* GCUIKitModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC3266A16F643298FA63D9D2A5C4085 /* GCUIKitModule-dummy.m */; };
-		415589818175EA8EB8FDD4286A490155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		510C874496458BFD9C45FA969E50572B /* GCUIKitModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C1C4E56CFFF079058A84953C453D12 /* GCUIKitModule-dummy.m */; };
+		84BE43E87AAB46FAD9ED204B970C2507 /* GCNoNetWorkView.xib in Sources */ = {isa = PBXBuildFile; fileRef = F43C462D14E22932820DF25A55884DC4 /* GCNoNetWorkView.xib */; };
 		852CDF0CCF81B197906B86075FB208E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8EC53180CB3D0DBC156DAADDA2BDAD89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B7379224368FE339349E567BB8744201 /* GCNoNetWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C53AE4D4B9721E9555902165247CD2 /* GCNoNetWorkView.swift */; };
-		C9CCA05EB2D9A4DBDA65438C64F4E105 /* GCUIKitModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4230056A90504D9C27D43D4B629D366D /* GCUIKitModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94EB560C137B0B449335507F3BDEFDFA /* GCUIKitModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C86B8907C25FD9880999B2E5246D86A9 /* GCUIKitModule.bundle */; };
+		A5D138F66199321B92BE37BFFC2372E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D1B74B222AD91CB87DF4B6E27C011833 /* Pods-GCUIKitModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 449C5D83E54917DFB4B1B2D1D4E5FA2D /* Pods-GCUIKitModule_Tests-dummy.m */; };
 		DFB8F8D1F3A5D2B3A21BB6C2A719B344 /* Pods-GCUIKitModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7942821A5898DE6367DC68054FAC34 /* Pods-GCUIKitModule_Example-dummy.m */; };
-		F109DB9607A616D68730C00A8A21CC89 /* NetWorkFailed.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 99C3F5A3E369A2E4E87845959C2E1425 /* NetWorkFailed.imageset */; };
-		F70A1F5DE33361404843287EA1CAC784 /* GCNoNetWorkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 850CDB528AE9ED0AC5815E31A1BB6323 /* GCNoNetWorkView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,57 +26,48 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 78100009FA060AC9FF1E2AFD83EDB254;
+			remoteGlobalIDString = D1E4A36CAAC806935F1DFEF545A67B5C;
 			remoteInfo = GCUIKitModule;
-		};
-		FAAEBFC1297E109F05355E6DD9123BDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1ED305B476C452D89829D72F0F16BA1;
-			remoteInfo = "GCUIKitModule-GCUIKitModule";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04F48842F8D0DC9A26BD0692102D2789 /* GCUIKitModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCUIKitModule.modulemap; sourceTree = "<group>"; };
+		0329F86485369AEB03E14BBBD90FBB55 /* GCUIKitModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCUIKitModule.modulemap; sourceTree = "<group>"; };
 		06C49EC2F74B102E2F24F5015E7306F9 /* Pods-GCUIKitModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCUIKitModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0CE3890CE428BF12CA04481141DAA309 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		163386A4F4A960D122B287921734BF26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29528BC75821CAA26FBEF6EDB469FB3F /* GCUIKitModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCUIKitModule.framework; path = GCUIKitModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CDE4A84451C89B6BA7B4B8EE42257F6 /* GCUIKitModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GCUIKitModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3E77DA3330FE3DAD17904D160DC3E9A4 /* GCUIKitModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GCUIKitModule.bundle; path = "GCUIKitModule-GCUIKitModule.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4230056A90504D9C27D43D4B629D366D /* GCUIKitModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCUIKitModule-umbrella.h"; sourceTree = "<group>"; };
-		43C53AE4D4B9721E9555902165247CD2 /* GCNoNetWorkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCNoNetWorkView.swift; path = GCUIKitModule/Classes/GCNoNetWorkView.swift; sourceTree = "<group>"; };
+		1695AE9B5299978D48A0032C16FE540E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304981937227650B66C98081E7AFC5C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3B568BC64C6F9EFB20B890A3830E3A92 /* Pods_GCUIKitModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GCUIKitModule_Tests.framework; path = "Pods-GCUIKitModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		449C5D83E54917DFB4B1B2D1D4E5FA2D /* Pods-GCUIKitModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCUIKitModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		46F339C8D356CA4DFB88DF8417BFC2FD /* GCUIKitModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GCUIKitModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4845FD065CCE857CBAB1C9279E825FFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4897AD9FF66B4818FE929D4AD726B7E7 /* Pods-GCUIKitModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GCUIKitModule_Example.modulemap"; sourceTree = "<group>"; };
 		51B8B969E877B01FEA90C521F8C93D7D /* Pods-GCUIKitModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCUIKitModule_Tests-resources.sh"; sourceTree = "<group>"; };
-		603E6F7F7D2F365D01EF9A11D0A6E51A /* GCUIKitModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCUIKitModule-prefix.pch"; sourceTree = "<group>"; };
+		59C1C4E56CFFF079058A84953C453D12 /* GCUIKitModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCUIKitModule-dummy.m"; sourceTree = "<group>"; };
 		609EA2F416667BD331735D50AAAFAF6A /* Pods-GCUIKitModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCUIKitModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		61C2D8CD78DD0736CDFB8CDA587DA1F6 /* GCUIKitModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCUIKitModule.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		673CD85CACC8D38FE3A6A3C900451885 /* Pods-GCUIKitModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GCUIKitModule_Tests.modulemap"; sourceTree = "<group>"; };
+		68F04D4B39244838FF391F8CBA4B4535 /* GCNoNetWorkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCNoNetWorkView.swift; path = GCUIKitModule/Classes/GCNoNetWorkView.swift; sourceTree = "<group>"; };
 		6D80A7629A22D9B8D7CEF78F2961BE6F /* Pods-GCUIKitModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCUIKitModule_Example-resources.sh"; sourceTree = "<group>"; };
-		6FC3266A16F643298FA63D9D2A5C4085 /* GCUIKitModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCUIKitModule-dummy.m"; sourceTree = "<group>"; };
+		708A1842DC15527F700AC69A33BEDA5C /* GCUIKitModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCUIKitModule-prefix.pch"; sourceTree = "<group>"; };
 		736BF517635F5562C9925E42E18A35AE /* Pods-GCUIKitModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCUIKitModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		74BCA314E3D05BABF96F71BD84C2BA98 /* ResourceBundle-GCUIKitModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GCUIKitModule-Info.plist"; sourceTree = "<group>"; };
 		7F7AB5894C8DA8FD22DF420EF7D84B39 /* Pods-GCUIKitModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCUIKitModule_Example-frameworks.sh"; sourceTree = "<group>"; };
-		850CDB528AE9ED0AC5815E31A1BB6323 /* GCNoNetWorkView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GCNoNetWorkView.xib; path = GCUIKitModule/Assets/GCUIKitModule.bundle/GCNoNetWorkView.xib; sourceTree = "<group>"; };
 		85CB442631B0E354F7F6E41376580836 /* Pods-GCUIKitModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCUIKitModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8637B6DCFF5EC47534ED30FFF6BE2329 /* Pods-GCUIKitModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GCUIKitModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		92FCC1568B0AF0CAF0B0F2127F6CBE31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99C3F5A3E369A2E4E87845959C2E1425 /* NetWorkFailed.imageset */ = {isa = PBXFileReference; includeInIndex = 1; name = NetWorkFailed.imageset; path = GCUIKitModule/Assets/GCUIKitModule.bundle/NetWorkFailed.imageset; sourceTree = "<group>"; };
 		99DB170FCF8DA1C91BD63729268148D5 /* Pods-GCUIKitModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCUIKitModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B02AD10DB23A787D43C310758E606A3 /* Pods-GCUIKitModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCUIKitModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A6B8F115737776D98B967C2D9F1BAC89 /* GCUIKitModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCUIKitModule-umbrella.h"; sourceTree = "<group>"; };
 		B3BF8A82C8AAFE2F169A24F3A7D18D79 /* Pods-GCUIKitModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GCUIKitModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		B73A8E83CAFAFD99D86C7BDC130A08BA /* Pods-GCUIKitModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCUIKitModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BC4E390A452E75B7EA28AA4D2B5668EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BE73FA69FC241FF527C752C0F1FD6388 /* Pods_GCUIKitModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GCUIKitModule_Example.framework; path = "Pods-GCUIKitModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF044D6F3A30DFD3D3FED259904227C7 /* Pods-GCUIKitModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCUIKitModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C80303BB59870A072FA973CE4472172E /* Pods_GCUIKitModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GCUIKitModule_Example.framework; path = "Pods-GCUIKitModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C821058F653E6A455AC1BDFC69F16910 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F597CF2AAB06004BC58C38A73C729732 /* Pods_GCUIKitModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GCUIKitModule_Tests.framework; path = "Pods-GCUIKitModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86B8907C25FD9880999B2E5246D86A9 /* GCUIKitModule.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GCUIKitModule.bundle; path = GCUIKitModule/Assets/GCUIKitModule.bundle; sourceTree = "<group>"; };
+		E7AFB57E72552474F4F8A16954CBB896 /* GCUIKitModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCUIKitModule.xcconfig; sourceTree = "<group>"; };
+		F43C462D14E22932820DF25A55884DC4 /* GCNoNetWorkView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GCNoNetWorkView.xib; path = GCUIKitModule/Classes/GCNoNetWorkView.xib; sourceTree = "<group>"; };
 		FB7942821A5898DE6367DC68054FAC34 /* Pods-GCUIKitModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCUIKitModule_Example-dummy.m"; sourceTree = "<group>"; };
+		FC2DDCF60D21F3C13FFFC26694DFE8A3 /* GCUIKitModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCUIKitModule.framework; path = GCUIKitModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC88ED6CEE7B3D74014814826B24EE3E /* Pods-GCUIKitModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCUIKitModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,18 +80,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		549D79A28A2BD446B8DC7EE1085BC84E /* Frameworks */ = {
+		505AC99230D1A4CD6BEC80CB33E8CB7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73C3ACD44ABD48A450D60C7E345840F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				415589818175EA8EB8FDD4286A490155 /* Foundation.framework in Frameworks */,
+				A5D138F66199321B92BE37BFFC2372E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,43 +99,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03DDD452E48366259BED9C3D8422EDF1 /* GCUIKitModule */ = {
+		15DD144F872554D326C636D2CDC5F80F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				43C53AE4D4B9721E9555902165247CD2 /* GCNoNetWorkView.swift */,
-				0D87DCA6C86D4B606514F8F730C39225 /* Pod */,
-				57D2B0DCFEE97CC7F4C8CB955AA2F392 /* Resources */,
-				801238FBD6E8F372CAA184EF5C0FE229 /* Support Files */,
+				0329F86485369AEB03E14BBBD90FBB55 /* GCUIKitModule.modulemap */,
+				E7AFB57E72552474F4F8A16954CBB896 /* GCUIKitModule.xcconfig */,
+				59C1C4E56CFFF079058A84953C453D12 /* GCUIKitModule-dummy.m */,
+				708A1842DC15527F700AC69A33BEDA5C /* GCUIKitModule-prefix.pch */,
+				A6B8F115737776D98B967C2D9F1BAC89 /* GCUIKitModule-umbrella.h */,
+				1695AE9B5299978D48A0032C16FE540E /* Info.plist */,
 			);
-			name = GCUIKitModule;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GCUIKitModule";
 			sourceTree = "<group>";
 		};
-		0B6B133C825D43068065170D0827BA43 /* Products */ = {
+		1AC49D8B985AB932783154D75514CA60 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3E77DA3330FE3DAD17904D160DC3E9A4 /* GCUIKitModule.bundle */,
-				29528BC75821CAA26FBEF6EDB469FB3F /* GCUIKitModule.framework */,
-				C80303BB59870A072FA973CE4472172E /* Pods_GCUIKitModule_Example.framework */,
-				F597CF2AAB06004BC58C38A73C729732 /* Pods_GCUIKitModule_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0D87DCA6C86D4B606514F8F730C39225 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2CDE4A84451C89B6BA7B4B8EE42257F6 /* GCUIKitModule.podspec */,
-				0CE3890CE428BF12CA04481141DAA309 /* LICENSE */,
-				BC4E390A452E75B7EA28AA4D2B5668EB /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		306A36A5154EA0301A5F5D09795EFED8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				03DDD452E48366259BED9C3D8422EDF1 /* GCUIKitModule */,
+				83CFB29D22FFAF89B620C7A9DB810074 /* GCUIKitModule */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -175,15 +139,6 @@
 			path = "Target Support Files/Pods-GCUIKitModule_Tests";
 			sourceTree = "<group>";
 		};
-		57D2B0DCFEE97CC7F4C8CB955AA2F392 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				850CDB528AE9ED0AC5815E31A1BB6323 /* GCNoNetWorkView.xib */,
-				99C3F5A3E369A2E4E87845959C2E1425 /* NetWorkFailed.imageset */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		59F14E5CF9205CCC917B85ADAC3437CB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,30 +148,48 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6F203CA43D7AACA212DF970E333BF276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DDCF60D21F3C13FFFC26694DFE8A3 /* GCUIKitModule.framework */,
+				BE73FA69FC241FF527C752C0F1FD6388 /* Pods_GCUIKitModule_Example.framework */,
+				3B568BC64C6F9EFB20B890A3830E3A92 /* Pods_GCUIKitModule_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				306A36A5154EA0301A5F5D09795EFED8 /* Development Pods */,
+				1AC49D8B985AB932783154D75514CA60 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0B6B133C825D43068065170D0827BA43 /* Products */,
+				6F203CA43D7AACA212DF970E333BF276 /* Products */,
 				59F14E5CF9205CCC917B85ADAC3437CB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		801238FBD6E8F372CAA184EF5C0FE229 /* Support Files */ = {
+		7E6F9A7994D0842BE061140C22E8F9F7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				04F48842F8D0DC9A26BD0692102D2789 /* GCUIKitModule.modulemap */,
-				61C2D8CD78DD0736CDFB8CDA587DA1F6 /* GCUIKitModule.xcconfig */,
-				6FC3266A16F643298FA63D9D2A5C4085 /* GCUIKitModule-dummy.m */,
-				603E6F7F7D2F365D01EF9A11D0A6E51A /* GCUIKitModule-prefix.pch */,
-				4230056A90504D9C27D43D4B629D366D /* GCUIKitModule-umbrella.h */,
-				C821058F653E6A455AC1BDFC69F16910 /* Info.plist */,
-				74BCA314E3D05BABF96F71BD84C2BA98 /* ResourceBundle-GCUIKitModule-Info.plist */,
+				46F339C8D356CA4DFB88DF8417BFC2FD /* GCUIKitModule.podspec */,
+				92FCC1568B0AF0CAF0B0F2127F6CBE31 /* LICENSE */,
+				304981937227650B66C98081E7AFC5C6 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GCUIKitModule";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		83CFB29D22FFAF89B620C7A9DB810074 /* GCUIKitModule */ = {
+			isa = PBXGroup;
+			children = (
+				68F04D4B39244838FF391F8CBA4B4535 /* GCNoNetWorkView.swift */,
+				F43C462D14E22932820DF25A55884DC4 /* GCNoNetWorkView.xib */,
+				7E6F9A7994D0842BE061140C22E8F9F7 /* Pod */,
+				D673715118887076799A93A4043590C3 /* Resources */,
+				15DD144F872554D326C636D2CDC5F80F /* Support Files */,
+			);
+			name = GCUIKitModule;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		8FF989D7F7A99EA20545A05FAF55BC6A /* Pods-GCUIKitModule_Example */ = {
@@ -253,6 +226,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D673715118887076799A93A4043590C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C86B8907C25FD9880999B2E5246D86A9 /* GCUIKitModule.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -264,19 +245,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68525C65CEAFE76D4E64A3AB06BDB2D6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9CCA05EB2D9A4DBDA65438C64F4E105 /* GCUIKitModule-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C44B56B1EA18F83FFD6A3FD3045F8E01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1CB6EF614AD8644929F35B9F89FBA4A5 /* Pods-GCUIKitModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFA97A1D6DA496F49129958955164EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01373CD1D3A8FC2F89A4DC7D71ADB920 /* GCUIKitModule-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,26 +279,7 @@
 			);
 			name = "Pods-GCUIKitModule_Example";
 			productName = "Pods-GCUIKitModule_Example";
-			productReference = C80303BB59870A072FA973CE4472172E /* Pods_GCUIKitModule_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		78100009FA060AC9FF1E2AFD83EDB254 /* GCUIKitModule */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB03900D63D397257ECCCE2D9EA8CDFE /* Build configuration list for PBXNativeTarget "GCUIKitModule" */;
-			buildPhases = (
-				486A9343A6F1C313E3F97E2DD343A882 /* Sources */,
-				73C3ACD44ABD48A450D60C7E345840F6 /* Frameworks */,
-				E871CB92ECD6D0235731A9E5430069FD /* Resources */,
-				68525C65CEAFE76D4E64A3AB06BDB2D6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C9677772651B147E7CDF2D687CE1B2D0 /* PBXTargetDependency */,
-			);
-			name = GCUIKitModule;
-			productName = GCUIKitModule;
-			productReference = 29528BC75821CAA26FBEF6EDB469FB3F /* GCUIKitModule.framework */;
+			productReference = BE73FA69FC241FF527C752C0F1FD6388 /* Pods_GCUIKitModule_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C7895178C1A51039E6B2321669489C24 /* Pods-GCUIKitModule_Tests */ = {
@@ -334,25 +296,26 @@
 			);
 			name = "Pods-GCUIKitModule_Tests";
 			productName = "Pods-GCUIKitModule_Tests";
-			productReference = F597CF2AAB06004BC58C38A73C729732 /* Pods_GCUIKitModule_Tests.framework */;
+			productReference = 3B568BC64C6F9EFB20B890A3830E3A92 /* Pods_GCUIKitModule_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E1ED305B476C452D89829D72F0F16BA1 /* GCUIKitModule-GCUIKitModule */ = {
+		D1E4A36CAAC806935F1DFEF545A67B5C /* GCUIKitModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92430446C4CC56A09A2B9D3B2042A361 /* Build configuration list for PBXNativeTarget "GCUIKitModule-GCUIKitModule" */;
+			buildConfigurationList = 516F4D4EBBB63E5ACC57B79627A976E9 /* Build configuration list for PBXNativeTarget "GCUIKitModule" */;
 			buildPhases = (
-				DD4711DBE24A0E29A3E83C80B38ACE32 /* Sources */,
-				549D79A28A2BD446B8DC7EE1085BC84E /* Frameworks */,
-				97C88B63C158053830836AF2C5EB6926 /* Resources */,
+				0963C14D1FB9C3888B4D6F7F2B927FCC /* Sources */,
+				505AC99230D1A4CD6BEC80CB33E8CB7E /* Frameworks */,
+				A22233919DFE3E622C10F55EAE1985D4 /* Resources */,
+				EBFA97A1D6DA496F49129958955164EA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "GCUIKitModule-GCUIKitModule";
-			productName = "GCUIKitModule-GCUIKitModule";
-			productReference = 3E77DA3330FE3DAD17904D160DC3E9A4 /* GCUIKitModule.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = GCUIKitModule;
+			productName = GCUIKitModule;
+			productReference = FC2DDCF60D21F3C13FFFC26694DFE8A3 /* GCUIKitModule.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -371,12 +334,11 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0B6B133C825D43068065170D0827BA43 /* Products */;
+			productRefGroup = 6F203CA43D7AACA212DF970E333BF276 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78100009FA060AC9FF1E2AFD83EDB254 /* GCUIKitModule */,
-				E1ED305B476C452D89829D72F0F16BA1 /* GCUIKitModule-GCUIKitModule */,
+				D1E4A36CAAC806935F1DFEF545A67B5C /* GCUIKitModule */,
 				305BAD419B389FAAAD822FD5B8D08B97 /* Pods-GCUIKitModule_Example */,
 				C7895178C1A51039E6B2321669489C24 /* Pods-GCUIKitModule_Tests */,
 			);
@@ -384,32 +346,24 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		97C88B63C158053830836AF2C5EB6926 /* Resources */ = {
+		A22233919DFE3E622C10F55EAE1985D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F70A1F5DE33361404843287EA1CAC784 /* GCNoNetWorkView.xib in Resources */,
-				F109DB9607A616D68730C00A8A21CC89 /* NetWorkFailed.imageset in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E871CB92ECD6D0235731A9E5430069FD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1697F6407413D5C6943F46FD7D844E3C /* GCUIKitModule.bundle in Resources */,
+				94EB560C137B0B449335507F3BDEFDFA /* GCUIKitModule.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		486A9343A6F1C313E3F97E2DD343A882 /* Sources */ = {
+		0963C14D1FB9C3888B4D6F7F2B927FCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7379224368FE339349E567BB8744201 /* GCNoNetWorkView.swift in Sources */,
-				2F2BCEB655F4BA586878B0F03FB2CEDE /* GCUIKitModule-dummy.m in Sources */,
+				1C51C0224DFE34A54F001C0C8875D012 /* GCNoNetWorkView.swift in Sources */,
+				84BE43E87AAB46FAD9ED204B970C2507 /* GCNoNetWorkView.xib in Sources */,
+				510C874496458BFD9C45FA969E50572B /* GCUIKitModule-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,31 +383,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD4711DBE24A0E29A3E83C80B38ACE32 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C9677772651B147E7CDF2D687CE1B2D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "GCUIKitModule-GCUIKitModule";
-			target = E1ED305B476C452D89829D72F0F16BA1 /* GCUIKitModule-GCUIKitModule */;
-			targetProxy = FAAEBFC1297E109F05355E6DD9123BDC /* PBXContainerItemProxy */;
-		};
 		E45AC02235CEEDC1ECE353C0C53715CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GCUIKitModule;
-			target = 78100009FA060AC9FF1E2AFD83EDB254 /* GCUIKitModule */;
+			target = D1E4A36CAAC806935F1DFEF545A67B5C /* GCUIKitModule */;
 			targetProxy = 34CE0B499A9232054A100E2A7EC03BFB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		14B343553954C3850634BE9EC8FD02F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7AFB57E72552474F4F8A16954CBB896 /* GCUIKitModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCUIKitModule/GCUIKitModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCUIKitModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCUIKitModule/GCUIKitModule.modulemap";
+				PRODUCT_NAME = GCUIKitModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -583,6 +555,38 @@
 			};
 			name = Release;
 		};
+		74579B0BF0E6ABE77A34C1A6564BD539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7AFB57E72552474F4F8A16954CBB896 /* GCUIKitModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCUIKitModule/GCUIKitModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCUIKitModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCUIKitModule/GCUIKitModule.modulemap";
+				PRODUCT_NAME = GCUIKitModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -638,101 +642,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		ADA09412566D7C0CF74404A26DC2FBA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C2D8CD78DD0736CDFB8CDA587DA1F6 /* GCUIKitModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GCUIKitModule";
-				INFOPLIST_FILE = "Target Support Files/GCUIKitModule/ResourceBundle-GCUIKitModule-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = GCUIKitModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		E44324960C93B8B1541B4C373A0EDEB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C2D8CD78DD0736CDFB8CDA587DA1F6 /* GCUIKitModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GCUIKitModule/GCUIKitModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GCUIKitModule/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GCUIKitModule/GCUIKitModule.modulemap";
-				PRODUCT_NAME = GCUIKitModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EA2A2C3AD09A171F4D9D8279BDADD62D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C2D8CD78DD0736CDFB8CDA587DA1F6 /* GCUIKitModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GCUIKitModule/GCUIKitModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GCUIKitModule/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GCUIKitModule/GCUIKitModule.modulemap";
-				PRODUCT_NAME = GCUIKitModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EA492F5E6AB79A7493A3AC010E5BFBD3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C2D8CD78DD0736CDFB8CDA587DA1F6 /* GCUIKitModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GCUIKitModule";
-				INFOPLIST_FILE = "Target Support Files/GCUIKitModule/ResourceBundle-GCUIKitModule-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = GCUIKitModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -824,20 +733,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92430446C4CC56A09A2B9D3B2042A361 /* Build configuration list for PBXNativeTarget "GCUIKitModule-GCUIKitModule" */ = {
+		516F4D4EBBB63E5ACC57B79627A976E9 /* Build configuration list for PBXNativeTarget "GCUIKitModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADA09412566D7C0CF74404A26DC2FBA0 /* Debug */,
-				EA492F5E6AB79A7493A3AC010E5BFBD3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB03900D63D397257ECCCE2D9EA8CDFE /* Build configuration list for PBXNativeTarget "GCUIKitModule" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA2A2C3AD09A171F4D9D8279BDADD62D /* Debug */,
-				E44324960C93B8B1541B4C373A0EDEB0 /* Release */,
+				14B343553954C3850634BE9EC8FD02F7 /* Debug */,
+				74579B0BF0E6ABE77A34C1A6564BD539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

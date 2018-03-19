@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GCUIKitModule'
-  s.version          = '0.0.2'
+  s.version          = '0.0.4'
   s.summary          = 'UIKit组件'
 
 # This description is used to generate tags and improve search results.
@@ -31,10 +31,10 @@ TODO: 一个UI基础组件
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'GCUIKitModule/Classes/**/*'
-  # s.resource = "GCUIKitModule/Assets/GCNoNetWorkView.xcassets"
-  s.resource_bundles = {
-     'GCUIKitModule' => ['GCUIKitModule/Assets/GCUIKitModule.bundle/*']
-  }
+  s.resource = "GCUIKitModule/Assets/GCUIKitModule.bundle"
+  # s.resource_bundles = {
+  #   'GCUIKitModule' => ['GCUIKitModule/Assets/**/*']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
